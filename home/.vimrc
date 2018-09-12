@@ -26,7 +26,6 @@ Bundle 'Valloric/YouCompleteMe'
 " Python
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'vim-syntastic/syntastic'
 
 call vundle#end()
 
