@@ -12,6 +12,9 @@ set hintchars hjklasdfgyuiopqwertnmzxcvb
 
 " URL redirects
 
+" Search
+set searchengine duckduckgo
+
 " Vim syntax
 vim: set filetype=vim:
 
