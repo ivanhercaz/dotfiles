@@ -15,6 +15,10 @@ set hintchars hjklasdfgyuiopqwertnmzxcvb
 " Search
 set searchengine duckduckgo
 
+" Firefox GUI
+guiset tabs autohide
+guiset navbar autohide
+
 " Vim syntax
 vim: set filetype=vim:
 
