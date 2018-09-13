@@ -124,5 +124,5 @@ POWERLINE_BASH_SELECT=1
 
 export PATH="$PATH:/home/ivanhercaz/.local/bin"
 
-source "$HOME/.homeshick/repos/homeshick/homeshick.sh"
+source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
