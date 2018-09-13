@@ -1,0 +1,17 @@
+" tridactyl configuration
+
+" Theme
+set theme dark 
+
+" Editor
+set editor vim
+
+" Vimperator hinting mode
+set hintfiltermode vimperator-reflow 
+set hintchars hjklasdfgyuiopqwertnmzxcvb
+
+" URL redirects
+
+" Vim syntax
+vim: set filetype=vim:
+
