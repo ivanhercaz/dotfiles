@@ -18,6 +18,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/limelight.vim'
 
 " Programming
 Plugin 'vim-syntastic/syntastic'
@@ -26,6 +28,11 @@ Bundle 'Valloric/YouCompleteMe'
 " Python
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tmhedberg/SimpylFold'
+Plugin 'nvie/vim-flake8'
+
+" Wiki
+Plugin 'chikamichi/mediawiki.vim'
+Plugin 'aquach/vim-mediawiki-editor'
 
 call vundle#end()
 
@@ -92,5 +99,18 @@ set term=xterm-256color
 set termencoding=utf-8
 let g:Powerline_symbols = "fancy"
 
+" Wiki
+let g:mediawiki_editor_username = "Ivanhercaz"
+let g:mediawiki_editor_path = "/w/"
+
 " Colorscheme
 colorscheme zenburn
+
+" Goyo
+let g:goyo_width = 85
+let g:goyo_height = 80
+
+" Limelight
+let g:limelight_conceal_ctermfg = "gray"
+let g:lilmelight_default_coefficient = 0.7
+let g:limelight_priority = -1
