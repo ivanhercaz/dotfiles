@@ -58,14 +58,14 @@ let g:SimpylFold_docstring_preview=1
 
 " Pending to move to move to ftypes plugin
 " Python indentation (PEP 8)
-au BufNewFile,BufRead *.py
-	\ set tabstop=4 |
-	\ set softtabstop=4 |
-	\ set shiftwidth=4 |
-	\ set textwidth=79 |
-	\ set expandtab |
-	\ set autoindent |
-	\ set fileformat=unix
+" au BufNewFile,BufRead *.py
+"	\ set tabstop=4 |
+"	\ set softtabstop=4 |
+"	\ set shiftwidth=4 |
+"	\ set textwidth=79 |
+"	\ set expandtab |
+"	\ set autoindent |
+"	\ set fileformat=unix
 
 " JS, HTML and CSS indentation
 au BufNewFile,BufRead *.js,*.html,*.css
@@ -112,5 +112,5 @@ let g:goyo_height = 80
 
 " Limelight
 let g:limelight_conceal_ctermfg = "gray"
-let g:lilmelight_default_coefficient = 0.7
+let g:limelight_default_coefficient = 0.7
 let g:limelight_priority = -1
