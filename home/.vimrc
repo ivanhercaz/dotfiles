@@ -18,9 +18,11 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
 " Plugin 'jnurmine/Zenburn'
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 
 " Programming
 Plugin 'vim-syntastic/syntastic'
@@ -111,12 +113,6 @@ augroup ProjectDrawer
 	autocmd!
 	autocmd VimEnter * :Vexplore
 augroup END
-
-" Powerline
-set laststatus=2
-set term=xterm-256color
-set termencoding=utf-8
-let g:Powerline_symbols = "fancy"
 
 " Wiki
 let g:mediawiki_editor_username = "Ivanhercaz"
