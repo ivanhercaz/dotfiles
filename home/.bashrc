@@ -112,13 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Powerline
-powerline-daemon -q
-
 export TERM="screen-256color"
-
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
 
 # Commented because I am going to test Starship and Vim Airline
 # . /usr/local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
