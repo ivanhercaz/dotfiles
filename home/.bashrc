@@ -120,9 +120,46 @@ export TERM="screen-256color"
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 
-. /usr/local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
+# Commented because I am going to test Starship and Vim Airline
+# . /usr/local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
 
 export PATH="$PATH:/home/ivanhercaz/.local/bin"
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
+export GOPATH=$HOME/Apps/goworkspace
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+
+# added by Miniconda3 installer
+# export PATH="/home/ivanhercaz/miniconda3/bin:$PATH"  # commented out by conda initialize
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[ -f /home/ivanhercaz/Apps/FreeTube/node_modules/tabtab/.completions/electron-forge.bash ] && . /home/ivanhercaz/Apps/FreeTube/node_modules/tabtab/.completions/electron-forge.bash
+
+source "$HOME/.utils.sh"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/ivanhercaz/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/ivanhercaz/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/ivanhercaz/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/ivanhercaz/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/ivanhercaz/Apps/google-cloud-sdk/path.bash.inc' ]; then . '/home/ivanhercaz/Apps/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/ivanhercaz/Apps/google-cloud-sdk/completion.bash.inc' ]; then . '/home/ivanhercaz/Apps/google-cloud-sdk/completion.bash.inc'; fi
+
+source $HOME/.cargo/env
+eval "$(starship init bash)"
