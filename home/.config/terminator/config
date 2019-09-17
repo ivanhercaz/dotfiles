@@ -1,8 +1,9 @@
 [global_config]
   focus = system
   title_transmit_bg_color = "#d30102"
-  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, Logger, LaunchpadBugURLHandler
+  enabled_plugins = Logger, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
   suppress_multiple_term_dialog = True
+  always_split_with_profile = True
 [keybindings]
   new_tab = <Primary>t
   copy = <Primary>c
@@ -39,11 +40,18 @@
     foreground_color = "#002b36"
     show_titlebar = False
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[Cai]]
+    background_color = "#09111a"
+    background_type = transparent
+    cursor_color = "#e3eef9"
+    foreground_color = "#d9e6f2"
+    show_titlebar = False
+    palette = "#000000:#ca274d:#4dca27:#caa427:#274dca:#a427ca:#27caa4:#808080:#808080:#e98da3:#a3e98d:#e9d48d:#8da3e9:#d48de9:#8de9d4:#ffffff"
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
-      profile = solarized-dark
+      profile = Cai
       type = Terminal
     [[[window0]]]
       parent = ""
