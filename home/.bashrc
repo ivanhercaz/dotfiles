@@ -157,3 +157,9 @@ if [ -f '/home/ivanhercaz/Apps/google-cloud-sdk/completion.bash.inc' ]; then . '
 
 source $HOME/.cargo/env
 eval "$(starship init bash)"
+
+# added by travis gem
+[ -f /home/ivanhercaz/.travis/travis.sh ] && source /home/ivanhercaz/.travis/travis.sh
+
+# Aliases
+alias please="sudo "
