@@ -29,6 +29,7 @@ Plugin 'vim-syntastic/syntastic'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-commentary'
 Plugin 'chrisbra/csv.vim'
+Plugin 'glench/vim-jinja2-syntax'
 
 " Python
 Plugin 'vim-scripts/indentpython.vim'
