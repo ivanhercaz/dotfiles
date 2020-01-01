@@ -163,3 +163,6 @@ eval "$(starship init bash)"
 
 # Aliases
 alias please="sudo "
+alias cat="ccat "
+
+source "/home/ivanhercaz/.local/etc/bash_completion.d/dephell.bash-completion"
