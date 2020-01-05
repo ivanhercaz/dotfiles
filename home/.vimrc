@@ -157,8 +157,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ["flake8"]
 
 " CSV
+let g:csv_delim_test = ",;|"
 let g:csv_strict_columns = 1
-let g:csv_highlight_column = 'y'
+let g:csv_highlight_column = "y"
 let b:csv_fixed_width="1,5,9,13,17,21"
-hi CSVColumnOdd term=bold ctermbg=5 guibg=LightGreen 
-hi CSVColumnEven term=bold ctermbg=1 guibg=DarkGreen 
