@@ -132,8 +132,6 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
 [ -f /home/ivanhercaz/Apps/FreeTube/node_modules/tabtab/.completions/electron-forge.bash ] && . /home/ivanhercaz/Apps/FreeTube/node_modules/tabtab/.completions/electron-forge.bash
 
-source "$HOME/.utils.sh"
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/ivanhercaz/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -161,8 +159,6 @@ eval "$(starship init bash)"
 # added by travis gem
 [ -f /home/ivanhercaz/.travis/travis.sh ] && source /home/ivanhercaz/.travis/travis.sh
 
-# Aliases
-alias please="sudo "
-alias cat="ccat "
-
 source "/home/ivanhercaz/.local/etc/bash_completion.d/dephell.bash-completion"
+
+source "/home/ivanhercaz/.exports.sh"
