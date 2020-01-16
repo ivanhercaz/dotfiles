@@ -1,0 +1,29 @@
+[general]
+email = Iván Hernández Cazorla <ivan@ivanhercaz.com>
+width = 79
+
+[header]
+type = header
+highlights = Destacados
+joy = Alegría de la semana :D
+
+[trello]
+type = trello
+user = ivanhercaz
+
+[github]
+type = github
+url = https://api.github.com/
+login = ivanhercaz
+
+[tools]
+type = git
+hackprowiki = /home/ivanhercaz/Documentos/proyectos/proyecto_fulp_investigacion/proyecto/src
+buruma = /home/ivanhercaz/Apps/buruma
+tldr = /home/ivanhercaz/Apps/tldr
+tldr-pages-data = /home/ivanhercaz/Apps/tldr-pages-data
+
+[footer]
+type = footer
+next = Plans, thoughts, ideas...
+status = Status: Green | Yellow | Orange | Red
