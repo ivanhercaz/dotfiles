@@ -159,6 +159,8 @@ eval "$(starship init bash)"
 # added by travis gem
 [ -f /home/ivanhercaz/.travis/travis.sh ] && source /home/ivanhercaz/.travis/travis.sh
 
+# Completion
+source <(kitty + complete setup bash)
 source "/home/ivanhercaz/.local/etc/bash_completion.d/dephell.bash-completion"
 
 source "/home/ivanhercaz/.exports.sh"
