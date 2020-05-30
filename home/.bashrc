@@ -114,9 +114,6 @@ fi
 
 export TERM="screen-256color"
 
-# Commented because I am going to test Starship and Vim Airline
-# . /usr/local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
-
 export PATH="$PATH:/home/ivanhercaz/.local/bin"
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
