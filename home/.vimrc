@@ -8,6 +8,7 @@ set wildmenu
 set nu
 
 set encoding=utf-8
+set backspace=indent,eol,start
 
 " Set the runtime path to include and initialize Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
