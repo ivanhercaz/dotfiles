@@ -170,3 +170,32 @@ let g:csv_delim = ","
 let g:csv_strict_columns = 1
 let g:csv_highlight_column = "y"
 let b:csv_fixed_width="1,5,9,13,17,21"
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
+
+" Elixir
+let g:ale_linters = {
+\   'elixir': ['elixir-ls'],
+\   'markdown': ['remark_lint']
+\}
+
+let g:ale_fixers = {
+\   'elixir': ['mix_format'],
+\   'markdown': ['prettier']
+\}
+
+let g:ale_elixir_elixir_ls_release='/home/ivanhercaz/Apps/elixir-ls/release'
+let g:ale_completion_enabled = 1
+let g:ale_sign_error = "✘"
+let g:ale_sign_warning = "⚠"
+let g:ale_lint_on_enter = 0
+let g:ale_lint_on_text_changed = "never"
+highlight ALEErrorSign ctermbg=NONE ctermfg=red
+highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
+let g:ale_linters_explicit = 1
+let g:ale_lint_on_save = 1
+let g:ale_fix_on_save = 1
+
+noremap <Leader>ad :ALEGoToDefinition<CR>
+nnoremap <leader>af :ALEFix<cr>
