@@ -2,7 +2,9 @@ set nocompatible        "required
 
 " Highlight 
 let python_highlight_all = 1 
-syntax enable 
+syntax on
+
+set wildmenu
 set nu
 
 set encoding=utf-8
