@@ -37,6 +37,13 @@ Plugin 'majutsushi/tagbar'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tmhedberg/SimpylFold'
 
+" Elixir
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'mhinz/vim-mix-format'
+Plugin 'tpope/vim-endwise'
+Plugin 'dense-analysis/ale'
+Plugin 'vim-test/vim-test'
+
 " Wiki
 Plugin 'chikamichi/mediawiki.vim'
 Plugin 'aquach/vim-mediawiki-editor'
