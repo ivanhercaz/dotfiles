@@ -165,3 +165,16 @@ source <(kitty + complete setup bash)
 source "/home/ivanhercaz/.local/etc/bash_completion.d/dephell.bash-completion"
 
 source "/home/ivanhercaz/.exports.sh"
+
+# pipx completions
+eval "$(register-python-argcomplete pipx)"
+
+# Poetry completions
+source "/home/ivanhercaz/.config/poetry/bash-completion"
+
+# asdf completions
+. $HOME/.asdf/completions/asdf.bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
