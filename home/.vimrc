@@ -25,13 +25,13 @@ Plugin 'junegunn/limelight.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-
 " Programming
 Plugin 'vim-syntastic/syntastic'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-commentary'
 Plugin 'chrisbra/csv.vim'
 Plugin 'glench/vim-jinja2-syntax'
+Plugin 'majutsushi/tagbar'
 
 " Python
 Plugin 'vim-scripts/indentpython.vim'
