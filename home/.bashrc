@@ -156,6 +156,10 @@ eval "$(starship init bash)"
 # added by travis gem
 [ -f /home/ivanhercaz/.travis/travis.sh ] && source /home/ivanhercaz/.travis/travis.sh
 
+# asdf - Elixir
+source $HOME/.asdf/asdf.sh
+export KERL_BUILD_DOCS=yes
+
 # Completion
 source <(kitty + complete setup bash)
 source "/home/ivanhercaz/.local/etc/bash_completion.d/dephell.bash-completion"
