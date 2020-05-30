@@ -1,5 +1,4 @@
 set nocompatible        "required
-filetype plugin on      "required
 
 " Highlight 
 let python_highlight_all = 1 
@@ -44,7 +43,7 @@ Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 
-filetype on
+filetype off
 filetype plugin on
 filetype plugin indent on
 
