@@ -1,0 +1,22 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+[character]
+use_symbol_for_status = true
+
+[cmd_duration]
+min_time = 4 
+style = "bold yellow"
+
+[directory]
+truncation_length = 8
+
+[git_branch]
+symbol = "🌱 "
+
+[time]
+format = "🕙[ %T ]"
+disabled = false
+
+[elixir]
+disabled = false

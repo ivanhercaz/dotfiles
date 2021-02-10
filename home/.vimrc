@@ -162,6 +162,10 @@ let syntastic_style_error_symbol = "✗✗"
 let g:syntastic_warning_symbol = "∙∙"
 let syntastic_style_warning_symbol = "∙∙"
 
+" Twig
+" au BufRead,BufNewFile *.twig set filetype=htmljinja
+" au BufRead,BufNewFile *.html.twig set filetype=html
+
 let g:syntastic_check_on_wq = 0 
 let g:syntastic_python_checkers = ["flake8"]
 

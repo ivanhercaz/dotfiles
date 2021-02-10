@@ -1,0 +1,21 @@
+---
+syntax: python
+tags: files
+---
+
+- Read multiple files:
+
+import fileinput
+
+for line in fileinput.input():
+	# code to execute for each line
+
+- Loop over multiple files:
+
+import fileinput
+import sys
+
+for line in fileinput.input():
+	if fileinput.isfirstline():
+		# code to execute if it is the first line
+	# code to execute for each line

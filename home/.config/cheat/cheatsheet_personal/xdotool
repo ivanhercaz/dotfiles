@@ -1,0 +1,8 @@
+---
+syntax: bash
+tags: [keyboard, mouse, simulation]
+---
+
+- Right click ({{3}}) on an specific part of the screen ({{x}}, {{y}}):
+
+xdotool mousemove {{x}} {{y}} click {{3}}
